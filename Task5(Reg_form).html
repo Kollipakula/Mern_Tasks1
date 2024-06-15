@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        .container {
+            padding: 5px;
+            border: 2px solid black;
+            text-align: center;
+            width: 400px;
+            height: 570px;
+            margin: 10px auto;
+        }
+        table {
+            margin: 0 auto;
+        }
+        td {
+            padding: 5px;
+           
+        }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: greenyellow;">Registration form</h1>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td><label>Firstname</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Lastname</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Re-enter Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" value="Male" name="gender">Male
+                        <input type="radio" value="Female" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td><input type="number" placeholder="0"></td>
+                </tr>
+                <tr>
+                    <td><label>Ph.no</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>State</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select>
+                            <option value="India">India</option>
+                            <option value="America">America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Languages</label></td>
+                    <td>
+                        <input type="checkbox">English
+                        <input type="checkbox">Tamil
+                        <input type="checkbox">Hindi
+                        <input type="checkbox">Telugu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>
+                            <input type="checkbox"> Here by I declare all the given details are true
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Login to the <a href="#">Ethnus</a> website</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Register</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

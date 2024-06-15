@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(192, 207, 27, 0.462);
+        }
+        #box{
+            position: relative;
+            border: 1px solid black;
+            width: 150px;
+            padding: 10px;
+            color: brown;
+            border-right-width: 2px black;
+            margin: 10px 5px;
+            
+
+        }
+        #box::after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: black;
+            width: 10px;
+            height: 100%;
+        }
+        .sub-container{
+            color: purple;
+        }
+        .container,.sub-container{
+            display: inline-block;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box">Home page</div>
+        <div id="box">Musings</div>
+        <div id="box">My town</div>
+        <div id="box">Links</div>
+    </div>
+    <div class="sub-container">
+        <h1>My-First Styled Web Page</h1>
+        <p>Welcome to my styled page!</p>
+        <p>It lacks images,but atleat it has a style.And it ha links,even if they dont go anywhere....</p>
+        <p>There shouldnt be more here,but i dont know what happened yet</p>
+        <dl>
+            <dt>Made on 13th June 2024</dt>
+            <dd>By Anudeep</dd>
+        </dl>
+    </div>
+    
+</body>
+</html>
